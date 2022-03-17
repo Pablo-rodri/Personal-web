@@ -1,5 +1,5 @@
 import logo6 from "../img/square.png"
-import { Link } from 'react-router-dom'
+//import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return( 
@@ -10,11 +10,12 @@ const Navbar = () => {
        <img className="imgNav" src={logo6} ></img>
        </button>
      <ul className="ulNav">
-   
+         
           
-          <li><a href="#">Curriculum pdf</a></li>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/SobreMi">Sobre mi</a></li>
           <li><a href="#">Contacto</a></li>
-          <li><a href="#">Aun no lo se</a></li>  
+          <li><a href="/curriculum">Curriculum pdf</a></li>  
 
       </ul>
 
