@@ -3,6 +3,7 @@ import logo2 from "../img/css.png"
 import logo3 from "../img/bootstrap.png"
 import logo4 from "../img/html-5.png"
 import logo5 from "../img/js.png"
+import logo6 from "../img/pripia2.jpg"
 
 const Principal = () => {
     
@@ -22,7 +23,7 @@ const Principal = () => {
   <div className="div1Principal">
 
 <div className="div1-2">
-<img className="img1Principal" src={logo}             
+<img className="img1Principal" src={logo6}             
      alt="" />
 
 <p>Soy una persona con una alta capacidad de adaptación, de compromiso con la empresa y con una gran capacidad de esfuerzo. <br></br>Ademas poseo amplias habilidades de trabajo en equipo y de comunicación. Estas experiencias profesionales también me han permitido desarrollar habilidades de gestión del tiempo y de organización. 
@@ -32,7 +33,8 @@ const Principal = () => {
   </div>
 </div>
 <div className="div2Principal">
-    <p className="columnaDerecha"><b>TECNOLOGIAS CONOCIDAS</b> .</p>
+
+    <p className="columnaDerecha moveme"><b>TECNOLOGIAS CONOCIDAS</b> .</p>
     <div className="div3Principal">
     <ul className= "UlPrincipal"l>
       <li ><img className="imgPrincipal1" src={logo4} ></img></li>

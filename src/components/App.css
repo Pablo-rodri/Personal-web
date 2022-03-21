@@ -347,6 +347,21 @@ button {
   }
 }
 /*sobreMi*/
+.sobreMih2 {
+  text-transform: uppercase;
+  font-size: 60px;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  writing-mode: vertical-lr;
+  top: 80%;
+  bottom: 10;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  word-wrap: break-word;
+  line-height: 20px;
+  letter-spacing: 6px;
+  text-shadow: 0.1em 0.1em 0.2em rgb(209, 195, 195);
+}
 .divSobreMi {
   padding: auto;
   display: flex;
@@ -354,15 +369,13 @@ button {
   position: fixed;
   top: 1%;
   width: 100%;
-  margin-top: 35px;
 }
 .imgSobreMi {
   height: 200px;
   width: 200px;
   border-radius: 40%;
   margin: auto;
-  padding-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 40px;
 }
 .divSobreMi2 {
   padding: auto;
@@ -391,4 +404,18 @@ button {
 }
 .CurriculumDiv {
   background-color: rgb(184, 181, 187);
+}
+/*flecha*/
+
+.moveme {
+  animation: floatme 0.5s 1s infinite ease-in alternate;
+}
+@keyframes floatme {
+  from {
+    margin-top: 0;
+  }
+
+  to {
+    margin-top: 100px;
+  }
 }
